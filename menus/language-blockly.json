@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle language-blockly",
+        "command": "language-blockly:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "language-blockly",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "language-blockly:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
