@@ -3,16 +3,16 @@
   "main": "./lib/language-blockly",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "language-blockly:toggle"
-  },
+  "keywords": [],
   "repository": "https://github.com/atom/language-blockly",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "jquery": "^3.3.1",
+    "node-blockly": "^1.0.35",
+    "react": "^0.14",
+    "react-dom": "^0.14.3"
   }
 }

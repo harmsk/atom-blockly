@@ -1,8 +1,8 @@
 'use babel';
 
-import LanguageBlocklyView from '../lib/language-blockly-view';
+import BlocklyEditorView from '../lib/blockly-editor-view';
 
-describe('LanguageBlocklyView', () => {
+describe('BlocklyEditorView', () => {
   it('has one valid test', () => {
     expect('life').toBe('easy');
   });
