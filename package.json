@@ -9,6 +9,9 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "activationCommands": {
+    "atom-workspace": "language-blockly:toggle"
+  },
   "dependencies": {
     "jquery": "^3.3.1",
     "node-blockly": "^1.0.35",
